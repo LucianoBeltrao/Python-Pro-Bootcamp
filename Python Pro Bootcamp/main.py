@@ -81,7 +81,7 @@ while '_' in display:
 
   guess = input('Guess a letter:').lower()
   if guess in display:
-    
+    S
     print(f"You've already guessed {guess}")
     print(f"{' '.join(display)}")
     print(stages[lives])
